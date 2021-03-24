@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Neurolab2/2.0.0-alfa": {
+        "runtime": {
+          "Neurolab2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Neurolab2/2.0.0-alfa": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

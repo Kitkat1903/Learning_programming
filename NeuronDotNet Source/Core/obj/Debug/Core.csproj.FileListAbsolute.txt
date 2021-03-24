@@ -1,0 +1,12 @@
+D:\Users\user\Desktop\NeuronDotNet Source\Core\bin\Debug\NeuronDotNet.Core.dll
+D:\Users\user\Desktop\NeuronDotNet Source\Core\bin\Debug\NeuronDotNet.Core.pdb
+D:\Users\user\Desktop\NeuronDotNet Source\Core\obj\Debug\Core.csprojAssemblyReference.cache
+D:\Users\user\Desktop\NeuronDotNet Source\Core\obj\Debug\Core.csproj.CoreCompileInputs.cache
+D:\Users\user\Desktop\NeuronDotNet Source\Core\obj\Debug\NeuronDotNet.Core.dll
+D:\Users\user\Desktop\NeuronDotNet Source\Core\obj\Debug\NeuronDotNet.Core.pdb
+C:\Users\Pro_2\source\repos\NeuronDotNet Source\Core\bin\Debug\NeuronDotNet.Core.dll
+C:\Users\Pro_2\source\repos\NeuronDotNet Source\Core\bin\Debug\NeuronDotNet.Core.pdb
+C:\Users\Pro_2\source\repos\NeuronDotNet Source\Core\obj\Debug\Core.csprojAssemblyReference.cache
+C:\Users\Pro_2\source\repos\NeuronDotNet Source\Core\obj\Debug\Core.csproj.CoreCompileInputs.cache
+C:\Users\Pro_2\source\repos\NeuronDotNet Source\Core\obj\Debug\NeuronDotNet.Core.dll
+C:\Users\Pro_2\source\repos\NeuronDotNet Source\Core\obj\Debug\NeuronDotNet.Core.pdb

@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Authors>Pro_2</Authors>
+    <Company>it.kgsu.ru</Company>
+    <Product>Neurolab 2.0</Product>
+    <Description>Программный учебный комплес для изучения студентами основ искусственных нейронных сетей</Description>
+    <Version>2.0.0-alfa</Version>
+    <PackageProjectUrl>it.kgsu.ru</PackageProjectUrl>
+    <AnalysisLevel>5.0</AnalysisLevel>
+    <PackageReleaseNotes></PackageReleaseNotes>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <PlatformTarget>x64</PlatformTarget>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <Optimize>false</Optimize>
+    <DefineConstants>TRACE</DefineConstants>
+    <NoWarn>1701;1702;</NoWarn>
+  </PropertyGroup>
+
+</Project>

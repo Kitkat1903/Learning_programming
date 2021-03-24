@@ -1,0 +1,22 @@
+﻿<Window x:Class="Neurolab2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Neurolab2"
+        mc:Ignorable="d"
+        Closing="Window_Closing"
+        Title="MainWindow" Height="450" Width="800" ShowInTaskbar="True" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        <Button Name="btn0" Content="_Тест" ToolTip="Click here and something will happen!" Visibility="Visible"
+                HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,0,0" Click="OnClickTestHelloWorld" Grid.ColumnSpan="2"/>
+        <!-- Если в свойстве Content элемента Button в названии в начале будет ровно один символ подчёркивания,
+        то следующая за ним буква станет клавишей быстрого доступа для элемента Button (соблюдать раскладку клавиатуры!).
+        Удерживая клавишу Alt, вы можете нажать одну из клавиш быстрого доступа (на клавиатуре) для активации соответствующей кнопки.
+        Реакция кнопки будет такая же, как если бы вы щёлкнули по ней мышью.-->
+    </Grid>
+</Window>

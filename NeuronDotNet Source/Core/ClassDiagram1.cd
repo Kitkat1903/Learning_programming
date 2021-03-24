@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="NeuronDotNet.Core.Backpropagation.ActivationLayer" Collapsed="true">
+    <Position X="5.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAEAAQAQJAAAAAAAAgAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Backpropagation\ActivationLayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NeuronDotNet.Core.Backpropagation.ActivationNeuron" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQEAIQFAAAEIQAAAGAEAABAAAEAAgABACAI=</HashCode>
+      <FileName>Backpropagation\ActivationNeuron.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NeuronDotNet.Core.Backpropagation.BackpropagationConnector">
+    <Position X="5.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAQAAIAAAAAAgAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Backpropagation\BackpropagationConnector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NeuronDotNet.Core.Backpropagation.BackpropagationNetwork">
+    <Position X="0.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAIAABAAAAAAAQQAgAAAEAA=</HashCode>
+      <FileName>Backpropagation\BackpropagationNetwork.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NeuronDotNet.Core.Backpropagation.BackpropagationSynapse" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAQAAAADAAABAgAAAwAAAACAAAAAgAAQggEAAEQA=</HashCode>
+      <FileName>Backpropagation\BackpropagationSynapse.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NeuronDotNet.Core.Backpropagation.LinearLayer" Collapsed="true">
+    <Position X="7.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Backpropagation\LinearLayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NeuronDotNet.Core.Backpropagation.LogarithmLayer" Collapsed="true">
+    <Position X="10" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Backpropagation\LogarithmLayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NeuronDotNet.Core.Backpropagation.SigmoidLayer" Collapsed="true">
+    <Position X="1" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Backpropagation\SigmoidLayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NeuronDotNet.Core.Backpropagation.SineLayer" Collapsed="true">
+    <Position X="3.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Backpropagation\SineLayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NeuronDotNet.Core.Backpropagation.TanhLayer" Collapsed="true">
+    <Position X="5.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Backpropagation\TanhLayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NeuronDotNet.Core.Connector&lt;TSourceLayer, TTargetLayer, TSynapse&gt;" Collapsed="true">
+    <Position X="6.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQEQAAABIAAQAYADAAAAAgAAIEIAAAACAGAAAABgA=</HashCode>
+      <FileName>Connector.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NeuronDotNet.Core.Helper" Collapsed="true">
+    <Position X="20" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAEAABAAAAAAAAAAAQAgQBACAAYAA=</HashCode>
+      <FileName>Helper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NeuronDotNet.Core.Layer&lt;TNeuron&gt;" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgRhIAAAIAAAAwAACAEAAAAgAQAAgAAAAAEEgSAQBAI=</HashCode>
+      <FileName>Layer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NeuronDotNet.Core.Network" Collapsed="true">
+    <Position X="1.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AqAAAABQAABCUQAACgAACAIgARACAAAEAQEElASBEAI=</HashCode>
+      <FileName>Network.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NeuronDotNet.Core.TrainingEpochEventArgs" Collapsed="true">
+    <Position X="18.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAgAAAAIAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>TrainingEpochEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NeuronDotNet.Core.TrainingSample" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAEAAAAAAIAAACiARAAgAgAAAAAIAAAAAAAAAAABA=</HashCode>
+      <FileName>TrainingSample.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NeuronDotNet.Core.TrainingSampleEventArgs" Collapsed="true">
+    <Position X="14.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAACCAAA=</HashCode>
+      <FileName>TrainingSampleEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NeuronDotNet.Core.TrainingSet" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAABAIACAAABAAgQAAAAAAAAAIAAABSAAA=</HashCode>
+      <FileName>TrainingSet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NeuronDotNet.Core.Initializers.ConstantFunction" Collapsed="true">
+    <Position X="9.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAgAAAAAAgAAAAIAAAAAAA=</HashCode>
+      <FileName>Initializers\ConstantFunction.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NeuronDotNet.Core.Initializers.NguyenWidrowFunction" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAEQAAAAAAAAAgAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Initializers\NguyenWidrowFunction.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NeuronDotNet.Core.Initializers.NormalizedRandomFunction" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Initializers\NormalizedRandomFunction.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NeuronDotNet.Core.Initializers.RandomFunction" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAEAQAAAAAAAAAgQAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Initializers\RandomFunction.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NeuronDotNet.Core.Initializers.ZeroFunction" Collapsed="true">
+    <Position X="9.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Initializers\ZeroFunction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NeuronDotNet.Core.LearningRateFunctions.AbstractFunction" Collapsed="true">
+    <Position X="3" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAADAAAAAgAAAAgAAAAAAAAAAAAAAAEIAA=</HashCode>
+      <FileName>LearningRateFunctions\AbstractFunction.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NeuronDotNet.Core.LearningRateFunctions.ExponentialFunction" Collapsed="true">
+    <Position X="0.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>LearningRateFunctions\ExponentialFunction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NeuronDotNet.Core.LearningRateFunctions.HyperbolicFunction" Collapsed="true">
+    <Position X="3" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>LearningRateFunctions\HyperbolicFunction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NeuronDotNet.Core.LearningRateFunctions.LinearFunction" Collapsed="true">
+    <Position X="5.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>LearningRateFunctions\LinearFunction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NeuronDotNet.Core.SOM.KohonenConnector">
+    <Position X="7.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SOM\KohonenConnector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NeuronDotNet.Core.SOM.KohonenLayer" Collapsed="true">
+    <Position X="12.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAgYABCICAAAAgAAEAQBABAEAQgAAAAAI=</HashCode>
+      <FileName>SOM\KohonenLayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NeuronDotNet.Core.SOM.KohonenNetwork">
+    <Position X="2.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>SOM\KohonenNetwork.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NeuronDotNet.Core.SOM.KohonenSynapse" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAQAAAACAAABAgAAAwAAAACAAAAAgAAQggAAAEAA=</HashCode>
+      <FileName>SOM\KohonenSynapse.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NeuronDotNet.Core.SOM.PositionNeuron" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAEAJABAAAQAQAAAQQEAACAAEEAggABAAAI=</HashCode>
+      <FileName>SOM\PositionNeuron.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NeuronDotNet.Core.SOM.NeighborhoodFunctions.GaussianFunction" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgABAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>SOM\NeighborhoodFunctions\GaussianFunction.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NeuronDotNet.Core.SOM.NeighborhoodFunctions.MexicanHatFunction" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgABAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>SOM\NeighborhoodFunctions\MexicanHatFunction.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="System.EventArgs" Collapsed="true">
+    <Position X="22.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Object" Collapsed="true">
+    <Position X="9.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Interface Name="NeuronDotNet.Core.IConnector" Collapsed="true">
+    <Position X="14.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAQAAAAIAAQAQAAAAAAAAAAAAAAAAACACAAAABAA=</HashCode>
+      <FileName>IConnector.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NeuronDotNet.Core.IInitializer" Collapsed="true">
+    <Position X="16.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IInitializer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NeuronDotNet.Core.ILayer" Collapsed="true">
+    <Position X="18.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQBIAAAIAAAAQAACAEAAAAAAAAAAAAAAAEAgCAQBAI=</HashCode>
+      <FileName>ILayer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NeuronDotNet.Core.ILearningRateFunction" Collapsed="true">
+    <Position X="20" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAgAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>ILearningRateFunction.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NeuronDotNet.Core.INetwork" Collapsed="true">
+    <Position X="16.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AiAAAABAAABAAQAACgAACAIAAQAAAAAEAAEEkACBAAI=</HashCode>
+      <FileName>INetwork.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NeuronDotNet.Core.INeuron" Collapsed="true">
+    <Position X="18.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAIQAAAEAAAAAAAAAAAgABAAAI=</HashCode>
+      <FileName>INeuron.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NeuronDotNet.Core.ISynapse" Collapsed="true">
+    <Position X="20" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAQAAAAAAAAAAgAAAQAAAACAAAAAAAAAAgAAAEAA=</HashCode>
+      <FileName>ISynapse.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NeuronDotNet.Core.SOM.INeighborhoodFunction" Collapsed="true">
+    <Position X="14.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SOM\INeighborhoodFunction.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Runtime.Serialization.ISerializable" Collapsed="true">
+    <Position X="22.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Enum Name="NeuronDotNet.Core.ConnectionMode" Collapsed="true">
+    <Position X="14.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConnectionMode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="NeuronDotNet.Core.TrainingMethod" Collapsed="true">
+    <Position X="18.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TrainingMethod.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="NeuronDotNet.Core.SOM.LatticeTopology" Collapsed="true">
+    <Position X="16.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>SOM\LatticeTopology.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="NeuronDotNet.Core.TrainingEpochEventHandler" Collapsed="true">
+    <Position X="14.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TrainingEpochEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="NeuronDotNet.Core.TrainingSampleEventHandler" Collapsed="true">
+    <Position X="16.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TrainingSampleEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

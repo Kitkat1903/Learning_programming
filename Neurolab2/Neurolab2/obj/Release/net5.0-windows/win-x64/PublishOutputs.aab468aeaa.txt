@@ -1,0 +1,2 @@
+C:\Users\Pro_2\source\repos\Neurolab2\Neurolab2\bin\Release\net5.0-windows\publish\Neurolab2.pdb
+C:\Users\Pro_2\source\repos\Neurolab2\Neurolab2\bin\Release\net5.0-windows\publish\Neurolab2.exe
